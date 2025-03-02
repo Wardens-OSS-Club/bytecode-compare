@@ -1,7 +1,7 @@
 {
-  "name": "pool-analysis",
+  "name": "bytecode-compare",
   "version": "1.0.0",
-  "description": "Analyzes pool deployments and their creators",
+  "description": "Compares Deployed Bytecode of two smart contracts to determine if they come from the same source",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
