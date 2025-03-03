@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "ts-node src/bytecode-compare.ts --ignore-hash --ignore-cbor bytecode1.hex bytecode2.hex"
+    "start": "ts-node src/bytecode-compare.ts --ignore-hash --ignore-cbor src/bytecode1.hex src/bytecode2.hex"
   },
   "dependencies": {
   },
